@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+    <style>
+        fieldset{
+            width: 200px;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <form method="get">
+      
+        <fieldset>
+            <legend>Preencha as informaçoes abaixo</legend>
+            <label>Nome:</label>
+            <input type="text" id="text" placeholder="insira seu nome">
+            <br>
+            <label>e-mail:</label>
+            <input type="email" id="email" placeholder="insira seu e-mail">
+            <br>
+            <label>Senha:</label>
+            <input type="password" id="senha" placeholder="insira sua senha">
+            <br>
+            <label>Contato:</label>
+            <input type="number" id="numero" placeholder="insira seu numero de telefone">
+            <br>
+            <label>Selecione o genero</label>
+            <select name="select">
+                <option value="valor1">selecione</option>
+                <option value="valor2">romance</option>
+                <option value="valor3">ação</option>
+            </select>
+            <br>
+            <label>descreva sua obra:</label>
+          <textarea name="descriçao" id="descriçao" cols="30" rows="10" placeholder="descreva nesse o campo o porquê da nossa editora publicar sua história"></textarea>
+          <br>
+            <label>envie sua obra:</label>
+            <input type="file">
+            <br>
+            <input type="submit">
+            <input type="reset" value="Cancelar">
+        
+        </fieldset>
+    </form>
+    <a href="/noticias.html">voltar tabela</a>
+</body>
+</html>
